@@ -1,0 +1,809 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #181818;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.DesktopHeader{
+    width: 100%;
+}
+
+.navbar{
+   height: 154px;
+   width: 100%;
+   padding-bottom: 35px;
+   background-color: #181818;
+  
+}
+
+.container{
+    width: 1097px;
+    height: 119px;
+    margin: auto;
+    display: flex;   
+    background-color:#181818;
+    padding: 20px 39px 21px 30px ;
+    
+}
+.Menu{
+    display: flex;
+    width: 393px;
+    height: 44px;
+    background-color: #181818;
+    margin-left: 116.5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.LandFigmaLogo{
+    display:flex;
+    padding: 10px;
+    background-color:#181818;
+}
+
+.button{
+    display:flex;   
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 173.5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button>button{
+    width: 139px;
+    height: 52px;
+    display: flex;
+    color: white;
+    background-color: #181818;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 1;
+
+}
+
+button:hover{
+    background-color: white;
+    color: #181818;
+}
+
+.Menu>a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.Menu>a:hover{
+    color: black;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.HeaderText{
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.HeaderText>.HeadLine{
+    width: 729px;
+    /* height: 196px; */
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    padding: 10px;
+    text-align: center;
+    font-style: normal;
+}
+
+.HeaderText>.SubHeading{
+    width: 602px;
+    /* height: 80px; */
+    margin-right: auto;
+    margin-left: auto;
+    color:white;
+    text-align: center;
+    font-style: normal;
+     font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+}
+
+
+
+.buttonssection>.buttons{
+    margin: 35px auto 35px;
+    height: 65px;
+    width: 387px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.buttons>.button1{
+    display: flex;
+    width: 178px;
+    height: 65px;
+   
+}
+
+.buttons>.button2{
+    display: flex;
+    width: 174px;
+    height: 65px;
+
+}
+
+.button1>button{
+    background-color: #4452FE;
+    color: white;
+    width: 100%;
+    display: flex;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+   cursor: pointer;
+}
+
+.button2>button{
+    background-color: #181818;
+    color: white;
+    width: 100%;
+    display: flex;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.button2>button:hover{
+    background-color: white;
+    color: #181818;
+}
+
+.button1>button:hover{
+    background-color: white;
+    color: #4452FE;
+    border-color: #181818;
+    border-width: 1px;
+}
+
+
+
+.ScreensSection{
+    width: 100%;
+    padding: 0px 13.49px 152px;
+    position: relative;
+}
+
+.ScreensSection>img{
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.gradient{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 67.1%;
+    bottom: 0%;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+}
+
+.FeatureSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 62px ;
+    flex-direction: column;
+}
+
+
+.FeatureText{
+    display: flex;
+    width: 602px;
+    margin-bottom: 80px;
+    flex-direction: column;
+    gap: 27px;
+    border-width: 1px;
+    
+}
+
+.FeatureText>.HeadLine{
+    width: 251px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    background-color:#181818;
+    line-height: 62px;
+}
+
+.FeatureText>.SubHeading{
+    width: 602px;
+    margin-right: auto;
+    margin-left: auto;
+    color:white;
+    text-align: center;
+    font-style: normal;
+     font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 10px;
+    gap: 10px;
+    letter-spacing: 0.2px;
+    background-color: #181818;
+}
+
+.BigFrame{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 2px;
+    display: flex;
+   
+}
+
+.BigFrame>.LeftFrameDesktop{
+    width: 752px;
+    padding: 0.5px 0px 0px;
+}
+
+.BigFrame>.LeftFrameMobile{
+    display: none;
+}
+.LeftFrameDesktop>#imgg1{ 
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+.BigFrame>.RightFrame{
+    width: 309px;
+    background-color:#181818;
+    padding: 54px 0px 54px 0px;
+}
+
+.BigFrame>.RightFrame>div{
+    background-color: #181818;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.RightFrameFirst{
+    background-color: #181818;
+    width: 100%;
+}
+
+.RightFrameFirst>.RightFrameFirst1{
+    width: 204.49px;
+    display: flex;
+    
+}
+
+.RightFrameFirst1>.icon1{
+    width: 31.49px;
+    padding: 19px 3px;
+}
+
+
+
+.RightFrameFirst1>.text1{
+    width: 173px;
+    padding: 10px;
+}
+
+.RightFrameFirst1>.text1>p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    letter-spacing: 0.2px;
+}
+.RightFrameFirst2{
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+.RightFrameFirst2>p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    letter-spacing: 0.2px;
+}
+.RightFrameSecond{
+    background-color: #181818;
+    width: 100%;
+   
+}
+
+.RightFrameSecond>.RightFrameSecond1{
+    width: 204.49px;
+    display: flex;
+    
+}
+
+.RightFrameSecond1>.icon2{
+    width: 33px;
+    padding: 15px 2px;
+}
+
+.icon2>img{
+    width: 29px;
+}
+
+
+.RightFrameSecond1>.text2{
+    width: 107px;
+    padding: 10px;
+}
+
+.RightFrameSecond1>.text2>p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    letter-spacing: 0.2px;
+}
+
+.RightFrameSecond2{
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+.RightFrameSecond2>p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    letter-spacing: 0.2px;
+}
+
+.RightFrameThird{
+    background-color: #181818;
+    width: 100%;
+}
+
+.RightFrameThird>.RightFrameThird1{
+    width: 204.49px;
+    display: flex;
+    
+}
+
+.RightFrameThird1>.icon3{
+    width: 41px;
+    padding: 17px 0px;
+}
+
+.icon3>img{
+    width:100%;
+}
+
+.RightFrameThird1>.text3{
+    width: 144px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.RightFrameThird1>.text3>p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    letter-spacing: 0.1px;
+}
+
+  .RightFrameThird2{
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+  }
+.RightFrameThird2>p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    letter-spacing: 0.2px;
+}
+
+
+.ContentSections{
+    display: flex;
+    justify-content: center;
+}
+
+.ContentSections>.Content{
+    width: 985px;
+    padding: 0px 98px 0px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.Content>.ContentHeader{
+    width: 591px;
+    margin: 0px auto 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Content>.BigSubSections{
+    width: 100%;
+    height: 600px;
+    gap: 33px;
+    display: flex;
+}
+
+.ContentHeader>.ContentHeading{
+    width: 245px;
+    padding: 10px;
+    gap: 10px;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 400;
+    color: white;
+     
+}
+
+.ContentHeader>.ContentSubHeading{
+    width: 100%;
+    padding: 10px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+
+
+
+}
+
+.LeftContentSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 57px;  
+    width: 476px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+
+.RightContentSection{
+    display: flex;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 30px;   
+    width: 476px;  
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.ComputerImage{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.DesignImage>img{
+    width: 379px;
+    object-fit: contain;
+}
+
+.WorkText{
+    display: flex;
+    width: 288px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.WorkText>.WorkHeading{
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    width: 70px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+}
+
+.WorkText>.WorkSubHeading{
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+
+
+
+.DesignText{
+    display: flex;
+    width: 288px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.DesignText>.DesignHeading{
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    width: 232px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+}
+
+.DesignText>.DesignSubHeading{
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.GallerySections{
+    width: 100%;
+    padding: 50px 246px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+}
+
+.Gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Gallery>.GalleryHeader{
+    width: 591px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GalleryHeader>.GalleryHeading{
+    width: 245px;
+    padding: 10px;
+    gap: 10px;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 400;
+    color: white;
+     
+}
+
+.GalleryHeader>.GallerySubHeading{
+    width: 100%;
+    padding: 10px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+
+
+
+}
+
+
+.Gallerydiv1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.Gallerydiv1>img{
+    width: 225px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+#Gall21{
+    width: 395px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+#Gall22{
+    width: 225px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    
+}
+
+#Gall23{
+    width: 401px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+   
+}
+
+.Gallerydiv2{
+    width: 1030px;
+}
+
+.Gallerydiv2>img{
+    height: 285px;
+}
+
+.Seemorebutton>button{
+    width: 139px;
+    height: 52px;
+    display: flex;
+    color: white;
+    background-color: #181818;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 1;
+}
+
+.Seemorebutton>button:hover{
+    background-color: white;
+    color: #181818;
+}
+
+
+.Partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Partners>.PartnersHeader{
+    width: 591px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PartnersHeader>.PartnersHeading{
+    width: 245px;
+    padding: 10px;
+    gap: 10px;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 400;
+    color: white;
+     
+}
+
+.PartnersHeader>.PartnersSubHeading{
+    width: 100%;
+    padding: 10px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+
+
+
+}
+
+.PartnersSections{
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.Partners{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.PartnersImages{
+    display: flex;
+    gap:74px;
+}
+.PartnersImages>img{
+    height: 60px;
+}
+
+.AllPartnersbutton>button{
+    width: 139px;
+    height: 52px;
+    display: flex;
+    color: white;
+    background-color: #181818;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 1;
+}
+
+.AllPartnersbutton>button:hover{
+    background-color: white;
+    color: #181818;
